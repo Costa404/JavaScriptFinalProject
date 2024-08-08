@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content-product {
+  display: flex;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.content h1 {
+  font-size: 100px;
+  width: 100vw;
+}
+
+.content-left {
+  display: flex;
+  gap: 50px;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.content-right button,
+.related-products-content button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.related-products-content {
+  display: flex;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.related-products {
+  display: flex;
+  justify-content: center;
+}
+
+.related-products img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.related-subContent {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  border-left: 86.25px solid black;
+  border-right: 86.25px solid black;
+  position: relative;
+  min-height: 100vh;
+}
+
+body h1,
+footer {
+  background-color: black;
+  color: white;
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+
+  border: 1px solid white;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}

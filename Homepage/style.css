@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 86.25px solid black;
+  min-height: 100vh;
+}
+.content-product {
+  display: flex;
+  max-width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+body h1 {
+  font-size: 100px;
+  color: white;
+  background-color: black;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+.product button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.btn {
+  position: absolute;
+  right: 86px;
+  top: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+
+  border: 1px solid white;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
